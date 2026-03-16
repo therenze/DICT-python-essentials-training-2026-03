@@ -1,26 +1,32 @@
-# Python Simulation Day 01
-# Python General Syntax
+# cleaning the terminal to only shows the output of the code
+import os
+# Clears the terminal screen
+os.system('cls' if os.name == 'nt' else 'clear')
 
-#print() display text or values to console terminal with comma separated objects
-print("Hello World!")
-print("Employee ID:", 912)
-print("First Name:", "Junell")
-print("Second Name:", "Bojocan")
 
-#calling argument-less print() resulting in a blank line output
-print()
-print()
+# # Python Simulation Day 01
+# # Python General Syntax
 
-#splitting a long line of code into multiple lines treated as single statement
-print("I am learning python programming!!! \
-Python is fun and easy to learn.")
+# #print() display text or values to console terminal with comma separated objects
+# print("Hello World!")
+# print("Employee ID:", 912)
+# print("First Name:", "Junell")
+# print("Second Name:", "Bojocan")
 
-#breaking code statement into multiple code lines for readability using \
-print()
-if (100>99) and \
-   (200<=500) and \
-   (True!=False):
-    print("That's nice!")
+# #calling argument-less print() resulting in a blank line output
+# print()
+# print()
+
+# #splitting a long line of code into multiple lines treated as single statement
+# print("I am learning python programming!!! \
+# Python is fun and easy to learn.")
+
+# #breaking code statement into multiple code lines for readability using \
+# print()
+# if (100>99) and \
+#    (200<=500) and \
+#    (True!=False):
+#     print("That's nice!")
 
 # #using semicolon ; to separate statements in a single code line
 # print()
@@ -28,7 +34,7 @@ if (100>99) and \
 
 # #populating data collection over multiple lines for readability
 # print()
-# myNumList = [1, 2, 3,
+# myNumList = [1, 2, 3,git
 #              4, 5, 6,
 #              7, 8, 9,
 #              10]
@@ -48,8 +54,8 @@ if (100>99) and \
 #     if (20>10):
 #         print("Another level of code block.")
 #         print("That is correct!")
-# else:
-#     print("10 is less than 5.")
+# else:print("10 is less than 5.")
+
 
 # #python indentation with function statement
 # print()
@@ -188,25 +194,27 @@ if (100>99) and \
 # print("I am", name, "python is new to me.", sep="_____", end="\n\n")
 
 
-# #multiple variable data calls to be printed
-# print("", "PERSONAL PROFILE", sep="\t", end="\n\n")
-# c_name = "Junell T. Bojocan"
-# gender = "Male"
-# age = 38
-# mob_num = 12312412313
-# print("Name:", c_name, sep="\t\t", end="\n\n")
-# print("Gender:", gender, sep="\t\t", end="\n\n")
-# print("Age:", age, sep="\t\t", end="\n\n")
-# print("Mobile Number:", mob_num, sep="\t", end="\n\n")
+#multiple variable data calls to be printed
+print("", "PERSONAL PROFILE", sep="\t", end="\n\n")
+c_name = "Junell T. Bojocan"
+gender = "Male"
+age = 38
+mob_num = 12312412313
+print("Name:", c_name, sep="\t\t", end="\n\n")
+print("Gender:", gender, sep="\t\t", end="\n\n")
+print("Age:", age, sep="\t\t", end="\n\n")
+print("Mobile Number:", mob_num, sep="\t", end="\n\n")
 
-# #displaying output data into a text file with the print() function
-# text_print = open("sample.txt", "w")                #opens file in write mode
-# print("Good morning everyone! Ayaw bah!!!", file=text_print)    #printing to specified file parameter
-# text_print.close()
+#displaying output data into a text file with the print() function
+text_print = open("sample.txt", "w")                #opens file in write mode
+print("Good morning everyone! Ayaw bah!!!", file=text_print)    #printing to specified file parameter
+text_print.close()
 
-# content = "Tingpaniudto na karon!!!"
-# text_print2 = open("sample2.txt", "w")
-# print("Hi, I am\n", c_name, "and I am", \
-#       age, "years old.", content, sep=" ", \
-#       file=text_print2)
-# text_print2.close()
+content = "Tingpaniudto na karon!!!"
+text_print2 = open("sample2.txt", "w")
+print("Hi, I am\n", \
+    c_name, "and I am", \
+    age, "years old.", \
+    content, sep=" ", \
+      file=text_print2)
+text_print2.close()
