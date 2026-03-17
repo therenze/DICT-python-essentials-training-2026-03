@@ -34,7 +34,7 @@ print("num1 =", 2); print("num2 =", 21); print("num3 =", 8)
 
 #populating data collection over multiple lines for readability
 print()
-myNumList = [1, 2, 3,git
+myNumList = [1, 2, 3,
              4, 5, 6,
              7, 8, 9,
              10]
