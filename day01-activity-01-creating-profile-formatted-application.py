@@ -28,6 +28,7 @@ c_address = 'home-based'
 c_clients = 'LGU Taganaan and LGU San Francisco Agusan del Sur'
 
 
+
 resume = f"""
 ============================================================
                 {name}
@@ -76,10 +77,10 @@ Certs:       {certifications}
 print(resume)
 
 
-# Print to the Text File
-# Note: encoding="utf-8" handles the ● symbols correctly
-output_file = open("resume_output.txt", "w", encoding="utf-8")
-print(resume, file=output_file)
-output_file.close()
+# # Print to the Text File
+# # Note: encoding="utf-8" handles the ● symbols correctly
+# output_file = open("resume_output.txt", "w", encoding="utf-8")
+# print(resume, file=output_file)
+# output_file.close()
 
-print("\n[System]: Resume successfully saved to resume_output.txt")
+# print("\n[System]: Resume successfully saved to resume_output.txt")
