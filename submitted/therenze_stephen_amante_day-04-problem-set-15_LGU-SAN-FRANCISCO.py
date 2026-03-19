@@ -11,3 +11,12 @@ for letter in last_name:
         print(f"Letter: {letter.upper()} | Sequence #: {sequence_num}")
     else:
         print(f"Character: {letter} | (Not a letter)")
+
+
+
+
+        
+
+
+
+ 

@@ -24,14 +24,14 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-# #breaking the while loop
-# print()
-# num = 0
-# while num<5:
-#     num += 1
-#     print(f"num = {num}")
-#     if num==3:
-#         break
+#breaking the while loop
+print()
+num = 0
+while num<=5:
+    num -= 1
+    print(f"num = {num}")
+    if num==-6100:
+        break
 
 
 
@@ -63,36 +63,36 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-#itering multiple assigned value
-print()
-num1, num2 = 0, 1
-while num1<10:
-    print(num1)
-    num1 = num2
-    num2 = num1+num2
-    #print 0
-    #   num1=1; num2=2
-    #print 1
-    #   num1=2; num2=4
-    #print 2
-    #   num1=4; num2=8
-    #print 4
-    #   num1=8; num2=16
-    #print 8
-    #   num1=16;    num2=32
-    #stop printing...
-
+# #itering multiple assigned value
 # print()
-# x, y = 0, 1
-# while x<10:
-#     print(x, end="\t")
-#     x, y = y, x+y
+# num1, num2 = 0, 1
+# while num1<10:
+#     print(num1)
+#     num1 = num2
+#     num2 = num1+num2
+#     #print 0
+#     #   num1=1; num2=2
+#     #print 1
+#     #   num1=2; num2=4
+#     #print 2
+#     #   num1=4; num2=8
+#     #print 4
+#     #   num1=8; num2=16
+#     #print 8
+#     #   num1=16;    num2=32
+#     #stop printing...
+
+# # print()
+# # x, y = 0, 1
+# # while x<10:
+# #     print(x, end="\t")
+# #     x, y = y, x+y
 
 
 
 
 
-# #executing while loop with else block
+#executing while loop with else block
 # print()
 # num = 0
 # while num>3:
@@ -102,6 +102,8 @@ while num1<10:
 #     print("\nThis else block is executed!")
 
 # print()
+
+
 # n=0
 # while n<len(range(5)):
 #     print(f"Num = {n}")
@@ -115,6 +117,8 @@ while num1<10:
 #     print(f"{data} is more than 32.")
 # else:
 #     print(f"While block is skipped since data is {data}.")
+
+
 
 
 

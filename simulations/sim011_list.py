@@ -87,7 +87,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 #update a list
 print()
 
-names = ["Stephen", "Bill", "Steve", "Albert"]
+names = ["Stephen", "Renze", "Amante", "Albert"]
 print(f"Names: {names}")
 
 names[0] = "Junell"

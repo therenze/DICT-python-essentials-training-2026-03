@@ -104,18 +104,18 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-# #working with string data in if-else statement
-# print()
-# username = "jtbojocan"
-# password = "admin"
+#working with string data in if-else statement
+print()
+username = "admin"
+password = "admin"
 
-# uname = input("Enter username: ")
-# pword = input("Enter password: ")
+uname = input("Enter username: ")
+pword = input("Enter password: ")
 
-# if ((uname==username) and (pword==password)):
-#     print(f"Hello {uname}, welcome to Python.")
-# else:
-#     print("Invalid user input!")
+if ((uname==username) and (pword==password)):
+    print(f"Hello {uname}, welcome to Python.")
+else:
+    print("Invalid user input!")
 
 
 
@@ -159,8 +159,8 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-#nested ternary operator
-print()
-n = 6
-res = "python" if n>10 else "java" if n>5 else "keep learning!!!"
-print(f"Result: {res}")
+# #nested ternary operator
+# print()
+# n = 6
+# res = "python" if n>10 else "java" if n>5 else "keep learning!!!"
+# print(f"Result: {res}")
