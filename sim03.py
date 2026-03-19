@@ -8,14 +8,29 @@ os.system('cls' if os.name == 'nt' else 'clear')
 # # Python Simulation 03
 # # Python Data Types and Casting
 
-# #casting to integer
-# print()
-# n1 = "78"
-# n2 = 5.32
-# n3 = 100
-# print(n1, type(n1), sep=" ==> ")
-# print(n2, type(n2), sep=" ==> ")
-# print(n3, type(n3), sep=" ==> ")
+#casting to integer
+print()
+n1 = "78"
+n2 = 5.32
+n3 = 100
+
+print("DEFAULT")
+print("-" *20)
+print(n1, type(n1), sep=" ==> ")
+print(n2, type(n2), sep=" ==> ")
+print(n3, type(n3), sep=" ==> ")
+
+nn1 = int(n1)
+nn2 = int(n2)
+nn3 = int(n3)
+print("\n\nCASTING TO INT")
+print("-" *20)
+print(nn1, type(nn1), sep=" ==> ")
+print(nn2, type(nn2), sep=" ==> ")
+print(nn3, type(nn3), sep=" ==> ")
+
+
+
 
 # print()
 # m1 = int(n1)

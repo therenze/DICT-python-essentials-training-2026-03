@@ -27,13 +27,14 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-# #returning type from the input function
-# name = "renze"
-# print("Data Type of name is", type(name))
-# age = input("Enter age: ")
-# print("Age data type is", type(age))
-# age_ = int(input("Age: "))
-# print("Age data type is", type(age_))
+#returning type from the input function
+name = "Therenze Stephen Amante"
+print(f"Name: {name}")
+print(f"Data Type of name is: {type(name)}")
+age = input("(no casting) Enter age: ")
+print(f"Age data type is: {type(age)}")
+age_ = int(input("(with casting) Age: "))
+print(f"Age data type is: {type(age_)}")
 
 
 

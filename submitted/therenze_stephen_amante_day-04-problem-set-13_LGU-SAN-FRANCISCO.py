@@ -40,3 +40,19 @@ print(f"MODULO: \n\t{num2} % {half_value_of_num1} = {res_mod} | ID: {id(res_mod)
 # STEP F: Exponentiation (num2 ** half_value_of_num1)
 res_exp = num2 ** half_value_of_num1
 print(f"EXPONENTIATION: \n\t{num2} ** {half_value_of_num1} = {res_exp} | ID: {id(res_exp)}")
+
+
+
+
+
+dict = {
+    id(res_add): res_add,
+    id(res_sub): res_sub,
+    id(res_mul): res_mul,
+    id(res_div): res_div,
+    id(res_mod): res_mod,
+    id(res_exp): res_exp
+}
+
+print("\n\n--- RESULTS DICTIONARY ---")
+print(dict)
